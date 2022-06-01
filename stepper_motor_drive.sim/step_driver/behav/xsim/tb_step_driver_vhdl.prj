@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../stepper_motor_drive.srcs/sources_1/new/clk_change.vhd" \
+"../../../../stepper_motor_drive.srcs/sources_1/new/step_driver.vhd" \
+"../../../../stepper_motor_drive.srcs/sources_1/new/towords.vhd" \
+"../../../../stepper_motor_drive.srcs/step_driver/new/tb_step_driver.vhd" \
+
+# Do not sort compile order
+nosort

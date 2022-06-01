@@ -1,0 +1,1385 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jun  1 22:16:16 2022
+# Process ID: 16508
+# Current directory: D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38896 D:\LABWORK\DSD\Lab\stepper_motor_drive\stepper_motor_drive\stepper_motor_drive.xpr
+# Log file: D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/vivado.log
+# Journal file: D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive\vivado.jou
+# Running On: BlackTeaIrse, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 17024 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/LABWORK/DSD/Lab/stepper_motor_drive' since last save.
+INFO: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.gen/sources_1', nor could it be found using path 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1254.633 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_project D:/LABWORK/DSD/Lab/seven_segment_display/seven_segment_display.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/LABWORK/DSD/Lab/seven_segment_display/seven_segment_display.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2021.2/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at F:/Xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+update_compile_order -fileset sources_1
+current_project stepper_motor_drive
+close [ open D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd w ]
+add_files D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd
+update_compile_order -fileset sources_1
+set_property top step_driver [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: step_driver
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1961.434 ; gain = 341.723
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-1731] cannot convert type std_logic to type signed [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:76]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.508 ; gain = 524.797
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+2 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: step_driver
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2144.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-3491] module 'clk_change' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:34' bound to instance 'clk_change_pro' of component 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'clk_change' (1#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:104]
+INFO: [Synth 8-3491] module 'towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:34' bound to instance 'toword_pro' of component 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+WARNING: [Synth 8-614] signal 'A' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'B' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'C' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'D' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'towords' (2#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'step_driver' (3#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2144.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2144.508 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2255.016 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2326.023 ; gain = 181.516
+11 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2326.023 ; gain = 181.516
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2401.859 ; gain = 72.438
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-3491] module 'clk_change' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:34' bound to instance 'clk_change_pro' of component 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'clk_change' (1#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:106]
+INFO: [Synth 8-3491] module 'towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:34' bound to instance 'toword_pro' of component 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+WARNING: [Synth 8-614] signal 'A' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'B' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'C' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'D' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'towords' (2#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'step_driver' (3#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2448.539 ; gain = 119.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2472.414 ; gain = 142.992
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2472.414 ; gain = 142.992
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2498.859 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2498.859 ; gain = 169.438
+close_design
+create_fileset -simset step_driver
+file mkdir D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/step_driver/new
+set_property SOURCE_SET sources_1 [get_filesets step_driver]
+close [ open D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/step_driver/new/tb_step_driver.vhd w ]
+add_files -fileset step_driver D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/step_driver/new/tb_step_driver.vhd
+update_compile_order -fileset step_driver
+current_project seven_segment_display
+close_project
+set_property top tb_step_driver [get_filesets step_driver]
+set_property top_lib xil_defaultlib [get_filesets step_driver]
+update_compile_order -fileset step_driver
+launch_simulation -simset [get_filesets step_driver ]
+Command: launch_simulation  -simset step_driver
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_step_driver' in fileset 'step_driver'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'step_driver'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_change'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'step_driver'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/step_driver/new/tb_step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_step_driver'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_step_driver_behav -key {Behavioral:step_driver:Functional:tb_step_driver} -tclbatch {tb_step_driver.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_step_driver.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50us
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_step_driver_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50us
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2498.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_step_driver' in fileset 'step_driver'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'step_driver'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'step_driver'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2498.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'step_driver'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2498.859 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/A_temp}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/B_temp}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/C_temp}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/D_temp}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/dt}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/cnt}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_step_driver/uut/clkout}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2498.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/step_driver/new/tb_step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_step_driver'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2498.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'step_driver'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2498.859 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: step_driver
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2498.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-3491] module 'clk_change' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:34' bound to instance 'clk_change_pro' of component 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'clk_change' (1#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:108]
+INFO: [Synth 8-3491] module 'towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:34' bound to instance 'toword_pro' of component 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+WARNING: [Synth 8-614] signal 'A' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'B' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'C' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+WARNING: [Synth 8-614] signal 'D' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'towords' (2#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'step_driver' (3#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2498.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2498.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2498.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2498.859 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2498.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2498.859 ; gain = 0.000
+11 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2498.859 ; gain = 0.000
+close_design
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2506.570 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: step_driver
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2506.570 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-3491] module 'clk_change' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:34' bound to instance 'clk_change_pro' of component 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'clk_change' (1#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:108]
+INFO: [Synth 8-3491] module 'towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:34' bound to instance 'toword_pro' of component 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+WARNING: [Synth 8-614] signal 'D' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:66]
+WARNING: [Synth 8-614] signal 'C' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:66]
+WARNING: [Synth 8-614] signal 'B' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:66]
+WARNING: [Synth 8-614] signal 'A' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'towords' (2#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'step_driver' (3#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2506.570 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2506.570 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2506.570 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2506.570 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2506.570 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2506.570 ; gain = 0.000
+11 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2506.570 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2506.570 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-3491] module 'clk_change' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:34' bound to instance 'clk_change_pro' of component 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'clk_change' (1#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:108]
+INFO: [Synth 8-3491] module 'towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:34' bound to instance 'toword_pro' of component 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+WARNING: [Synth 8-614] signal 'D' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:67]
+WARNING: [Synth 8-614] signal 'C' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:67]
+WARNING: [Synth 8-614] signal 'B' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:67]
+WARNING: [Synth 8-614] signal 'A' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'towords' (2#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'step_driver' (3#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2513.988 ; gain = 7.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2536.875 ; gain = 30.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2536.875 ; gain = 30.305
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2564.457 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2564.457 ; gain = 57.887
+launch_simulation -simset [get_filesets step_driver ]
+Command: launch_simulation  -simset step_driver
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_step_driver' in fileset 'step_driver'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'step_driver'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_step_driver_behav -key {Behavioral:step_driver:Functional:tb_step_driver} -tclbatch {tb_step_driver.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_step_driver.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50us
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_step_driver_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50us
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2586.594 ; gain = 22.137
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_step_driver/uut/A_temp}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_step_driver/uut/B_temp}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_step_driver/uut/C_temp}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_step_driver/uut/D_temp}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.566 ; gain = 2.973
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+launch_simulation -simset [get_filesets step_driver ]
+Command: launch_simulation  -simset step_driver
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_step_driver' in fileset 'step_driver'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'step_driver'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_step_driver_behav -key {Behavioral:step_driver:Functional:tb_step_driver} -tclbatch {tb_step_driver.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_step_driver.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50us
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_step_driver_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50us
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+create_fileset -simset towords
+file mkdir D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/towords/new
+set_property SOURCE_SET sources_1 [get_filesets towords]
+close [ open D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/towords/new/tb_towords.vhd w ]
+add_files -fileset towords D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/towords/new/tb_towords.vhd
+update_compile_order -fileset towords
+set_property top tb_towords [get_filesets towords]
+set_property top_lib xil_defaultlib [get_filesets towords]
+update_compile_order -fileset towords
+launch_simulation -simset [get_filesets towords ]
+Command: launch_simulation  -simset towords
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_towords' in fileset 'towords'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'towords'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/towords/new/tb_towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_towords_behav -key {Behavioral:towords:Functional:tb_towords} -tclbatch {tb_towords.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_towords.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50us
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_towords_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50us
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/towords/new/tb_towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/tb_towords/toword_pro/toword}} 
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/tb_towords/toword_pro/toword_next}} 
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xvhdl --incr --relax -prj tb_towords_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset towords -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_towords'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'towords'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/towords/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_towords_behav xil_defaultlib.tb_towords -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_towords
+Built simulation snapshot tb_towords_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2589.859 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets step_driver ]
+Command: launch_simulation  -simset step_driver
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [SIM-utils-72] Using boost library from 'F:/Xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_step_driver' in fileset 'step_driver'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'step_driver'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'towords'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_step_driver_behav -key {Behavioral:step_driver:Functional:tb_step_driver} -tclbatch {tb_step_driver.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_step_driver.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50us
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_step_driver_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50us
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2589.859 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xvhdl --incr --relax -prj tb_step_driver_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/step_driver/new/tb_step_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_step_driver'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset step_driver -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb_step_driver'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'step_driver'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.sim/step_driver/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_step_driver_behav xil_defaultlib.tb_step_driver -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clk_change [clk_change_default]
+Compiling architecture behavioral of entity xil_defaultlib.towords [towords_default]
+Compiling architecture behavioral of entity xil_defaultlib.step_driver [step_driver_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_step_driver
+Built simulation snapshot tb_step_driver_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2589.859 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd w ]
+add_files D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd
+update_compile_order -fileset sources_1
+close [ open D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd w ]
+add_files D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd
+update_compile_order -fileset sources_1
+set_property top driver [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: driver
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2589.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2048] function speedcount does not always return a value [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed_control.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd:47]
+INFO: [Synth 8-3491] module 'key_towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd:34' bound to instance 'key_towords_pro' of component 'key_towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'key_towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd:43]
+INFO: [Synth 8-3491] module 'key_filter' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:35' bound to instance 'forword_pro' of component 'key_filter' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'key_filter' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:43]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:50]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:73]
+WARNING: [Synth 8-614] signal 'countup' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'key_filter' (1#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:43]
+INFO: [Synth 8-3491] module 'key_filter' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:35' bound to instance 'backword_pro' of component 'key_filter' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'key_towords' (2#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_towords.vhd:43]
+INFO: [Synth 8-3491] module 'speed' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed.vhd:34' bound to instance 'speed_pro' of component 'speed' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'speed' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed.vhd:42]
+INFO: [Synth 8-3491] module 'key_filter' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:35' bound to instance 'up_pro' of component 'key_filter' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed.vhd:65]
+INFO: [Synth 8-3491] module 'key_filter' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/key_filter.vhd:35' bound to instance 'down_pro' of component 'key_filter' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed.vhd:74]
+INFO: [Synth 8-3491] module 'speed_control' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed_control.vhd:35' bound to instance 'speed_control_pro' of component 'speed_control' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'speed_control' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed_control.vhd:45]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed_control.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'speed_control' (3#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed_control.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'speed' (4#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/speed.vhd:42]
+INFO: [Synth 8-3491] module 'step_driver' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:35' bound to instance 'step_driver_pro' of component 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'step_driver' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-3491] module 'clk_change' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:34' bound to instance 'clk_change_pro' of component 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'clk_change' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'clk_change' (5#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/clk_change.vhd:41]
+INFO: [Synth 8-226] default block is never used [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:108]
+INFO: [Synth 8-3491] module 'towords' declared at 'D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:34' bound to instance 'toword_pro' of component 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'towords' [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'towords' (6#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/towords.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'step_driver' (7#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/step_driver.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'driver' (8#1) [D:/LABWORK/DSD/Lab/stepper_motor_drive/stepper_motor_drive/stepper_motor_drive.srcs/sources_1/new/driver.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2589.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2589.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2589.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2589.859 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2589.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2609.945 ; gain = 20.086
+29 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2609.945 ; gain = 20.086
+close_design
+close_project

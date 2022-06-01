@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_step_driver_behav/xsimk.exe -simmode gui -wdb tb_step_driver_behav.wdb -simrunnum 0 -socket 4082
+Design successfully loaded
+Design Loading Memory Usage: 7876 KB (Peak: 7876 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8876 KB (Peak: 8876 KB)
+Simulation CPU Usage: 15 ms
