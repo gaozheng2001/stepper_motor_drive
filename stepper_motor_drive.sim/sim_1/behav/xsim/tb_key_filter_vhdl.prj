@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../stepper_motor_drive.srcs/sources_1/new/key_filter.vhd" \
+"../../../../stepper_motor_drive.srcs/sim_1/new/tb_key_filter.vhd" \
+
+# Do not sort compile order
+nosort
